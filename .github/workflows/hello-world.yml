@@ -7,4 +7,4 @@ jobs:
      steps: 
        - name: checkout repo code 
          uses: actions/checkout@v4
-       - run: ehco "hello world print"  
+       - run: echo "hello world print"  
