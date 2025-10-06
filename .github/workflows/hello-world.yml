@@ -1,0 +1,10 @@
+name: hello-world
+
+on: push 
+jobs: 
+  hello-world-jobs: 
+     runs-on: ubuntu-latest 
+     steps: 
+       - name: checkout repo code 
+         uses: action/checkout@v4
+       - run: ehco "hello world print"  
